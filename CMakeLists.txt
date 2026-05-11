@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(warehouse_s26 main.cpp
         product.cpp
-        product.h)
+        product.h
+        warehouse.cpp
+        warehouse.h)
